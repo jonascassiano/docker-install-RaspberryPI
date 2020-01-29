@@ -35,9 +35,9 @@ groups
 
 To verify that the installation and configuration, you can run the following command:
 
-```shell
+'''shell
 docker run hello-world
-```
+'''
 
 ## Legal
 *Brought to you courtesy of our legal counsel. For more context,
