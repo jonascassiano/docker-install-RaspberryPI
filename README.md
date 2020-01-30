@@ -39,6 +39,24 @@ To verify that the installation and configuration, you can run the following com
 docker run hello-world
 ```
 
+# Docker Compose:
+
+## Install dependencies
+
+```shell
+sudo apt-get install libffi-dev libssl-dev
+
+sudo apt-get install -y python python-pip
+
+sudo apt-get remove python-configparser
+```
+
+## Install Docker Compose
+
+```shell
+sudo pip install docker-compose
+```
+
 ## Legal
 *Brought to you courtesy of our legal counsel. For more context,
 please see the [NOTICE](NOTICE) document in this repo.*
